@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="installer" method="upgrade">
+    <name>Installer - GrtTheme</name>
+    <version>1.0.3</version>
+    <description>PLG_INSTALLER_GRTTHEME_DESCRIPTION</description>
+    <creationDate>April 2017</creationDate>
+    <copyright>Copyright (C) GRTtheme GmbH</copyright>
+    <license>GNU General Public License v2 or later</license>
+    <author>GRTtheme</author>
+    <authorEmail>info@yootheme.com</authorEmail>
+    <authorUrl>http://yootheme.com</authorUrl>
+    <scriptfile>script.php</scriptfile>
+    <files>
+        <folder>language</folder>
+        <filename>CHANGELOG.md</filename>
+        <filename plugin="yootheme">yootheme.php</filename>
+        <filename>README.md</filename>
+        <filename>script.php</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="apikey" type="textarea" label="PLG_INSTALLER_YOOTHEME_API_KEY" />
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <server type="extension" priority="1" name="GRTtheme Installer">http://yootheme.com/api/update/installer_yootheme_j33.xml</server>
+    </updateservers>
+
+</extension>
