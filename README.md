@@ -1,0 +1,1 @@
+# GRT-theme_plg_installer_grttheme
