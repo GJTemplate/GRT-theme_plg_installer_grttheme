@@ -6,6 +6,8 @@ class plgInstallerGrttheme extends JPlugin
 {
     public function onInstallerBeforePackageDownload(&$url, &$headers)
     {
+//        return true;
+
         if (parse_url($url, PHP_URL_HOST) == 'yootheme.com') {
 
             if ($key = $this->params->get('apikey')) {
