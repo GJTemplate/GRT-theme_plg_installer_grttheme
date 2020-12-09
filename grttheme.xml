@@ -13,7 +13,7 @@
     <files>
         <folder>language</folder>
         <filename>CHANGELOG.md</filename>
-        <filename plugin="yootheme">yootheme.php</filename>
+        <filename plugin="grttheme">grttheme.php</filename>
         <filename>README.md</filename>
         <filename>script.php</filename>
     </files>
